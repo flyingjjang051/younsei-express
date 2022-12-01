@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "env": {},
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node",
+      "config": { "includeFiles": ["/node_modules"] }
+    }
+  ]
+}
